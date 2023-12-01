@@ -1,0 +1,7 @@
+#EXTM3U
+#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.4d001e,mp4a.40.2"
+https://cloud.kodik-storage.com/useruploads/904a7536-eb72-4ffa-8cee-a6e1bcbc6e12/55ff1f935ecbfcc1c09bb89e746c54be:2023120204/360.mp4:hls:manifest.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=854x480,CODECS="avc1.4d001f,mp4a.40.2"
+https://cloud.kodik-storage.com/useruploads/904a7536-eb72-4ffa-8cee-a6e1bcbc6e12/55ff1f935ecbfcc1c09bb89e746c54be:2023120204/480.mp4:hls:manifest.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720,CODECS="avc1.4d001f,mp4a.40.2"
+https://cloud.kodik-storage.com/useruploads/904a7536-eb72-4ffa-8cee-a6e1bcbc6e12/55ff1f935ecbfcc1c09bb89e746c54be:2023120204/720.mp4:hls:manifest.m3u8
