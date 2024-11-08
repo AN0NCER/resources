@@ -26,7 +26,7 @@ export default () => {
                 localStorage.removeItem(key);
             };
 
-            const passKey = ["anime-db", "access_token", "access_whoami", "anime-collection", "application_installed", "dialog-update", "github-version", "last-watch", "parametrs", "tunime-id"];
+            const passKey = ["anime-db", "access_token", "access_whoami", "anime-collection", "application_installed", "dialog-update", "github-version", "last-watch", "parametrs", "tunime-id", "application_event"];
             const inclType = ['kodik_episode,kodik_dub,date_update', 'kodik_episode,kodik_dub'];
 
             keys.forEach(key => {
