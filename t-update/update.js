@@ -2,7 +2,7 @@ const migrations = {
     "2": {
         "6": {
             "0": {
-                "compatibility": ["2.6.0", "2.6.0"],
+                "compatibility": ["2.6.0", "2.7.0"],
             }
         }
     }
