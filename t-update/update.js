@@ -103,9 +103,7 @@ export async function initialize({ version, callback, priority = false, onProgre
         versionKeys.forEach(v => {
             const currentVersion = `${versionData.major}.${minor}.${v}`;
 
-            if (priority && currentVersion !== version) {
-                return;
-            }
+            // Убираем проверку: if (priority && currentVersion !== version) { return; }
 
             if (shouldSkipUpdate(currentVersion, appUpdates, priority)) {
                 tasks.push(async () => ({ version: currentVersion, status: "skipped" }));
