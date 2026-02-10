@@ -5,6 +5,13 @@ const migrations = {
                 "compatibility": ["2.6.0", "2.7.9"],
             }
         }
+    },
+    "3": {
+        "0": {
+            "0": {
+                "compatibility": ["3.0.0", "3.0.1"]
+            }
+        }
     }
 }
 
