@@ -26,7 +26,7 @@ export default () => {
 
             // Коллекции создаются от имени пользователя: без входа запрос
             // ушёл бы в очередь, а ключ уже был бы стёрт
-            const { OAuth } = await import('/javascript/core/main.core.js');
+            const { OAuth } = await import('https://an0ncer.github.io/javascript/core/main.core.js');
             if (!OAuth.auth) return resolve("skip");
 
             const list = load();
@@ -35,7 +35,7 @@ export default () => {
             // в хранилище, чем потерянные коллекции
             if (!list) return resolve("error");
 
-            const { Collections } = await import('/javascript/modules/tun.collections.js');
+            const { Collections } = await import('https://an0ncer.github.io/javascript/modules/tun.collections.js');
 
             /** Что не доехало — остаётся до следующего запуска */
             const rest = [];
